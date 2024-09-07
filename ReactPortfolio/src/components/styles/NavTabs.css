@@ -1,0 +1,36 @@
+.navBody{
+    width: 100%;
+    border-bottom: 2px black solid;
+    font-family: "Roboto";
+    background-color: #A99985;
+    margin-top: -25px;
+    height: 140px;
+}
+
+.title {
+    color: white;
+    text-shadow: 5px -2px 1px #31343a;
+    text-align: center;
+    padding-top: 25px;
+    margin: 25px;
+    font-size: 50px;
+}
+
+.navBar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 0;
+    
+}
+
+.navBar a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px -1px 1px black;
+}
+
+.navBar a:hover{
+    filter: brightness(0.6);
+    transition: all 0.3s ease-in-out;
+}
