@@ -1,0 +1,41 @@
+.contact{
+    background-color: #DAD2BC;
+    font-family: "Roboto";
+    padding: 0 2vw 0 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 82vh;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 50%;
+    background-color: #F5F1ED;
+    height: 700px;
+    box-shadow: 10px 10px #70798C;
+    
+}
+
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-control{
+    margin: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px #70798C;
+}
+
+.btn-dark{
+    margin: 20px;
+    box-shadow: 10px 10px #70798C;
+}

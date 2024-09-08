@@ -80,7 +80,7 @@ export default function Resume() {
                 </div>
             </div>
             <div className="buttonDiv">
-                <button className="btn">Download Resume ⬇️</button>    
+                <button className="btn specbtn">Download Resume ⬇️</button>    
             </div>
         </div>
         
