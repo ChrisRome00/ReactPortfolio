@@ -1,5 +1,9 @@
+import './styles/Portfolio.css'
+
 export default function Portfolio() {
-    return (
-        <h2>Portfolio</h2>
-    )
+  return (
+    <div className="portfolio">
+      <h2>Portfolio</h2>
+    </div>
+  );
 }

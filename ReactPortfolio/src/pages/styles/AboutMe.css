@@ -1,7 +1,10 @@
 .aboutMe {
     background-color: #DAD2BC;
     min-height: 705px;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 84vh;
+    font-family: "Roboto";
 }
 
 h2 {
@@ -18,7 +21,7 @@ h2 {
     border: 4px black solid;
     border-radius: 20px;
     box-shadow: 20px 20px #70798C;
-    height: 400px;
+    height: 30vw;
 }
 
 .aboutMeText {
@@ -28,4 +31,34 @@ h2 {
     text-align: center;
     display: flex;
     align-items: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1510px) {
+    .aboutMeBody {
+      flex-direction: column;
+    }
+    .dog{
+        height: 60vw;
+    }
+    .aboutMeText{
+        margin: 40px 10px 40px 10px;
+        padding: 20px
+    }
+}
+
+@media screen and (max-width: 885px) {
+    
+    .dog{
+        box-shadow: 10px 10px #70798C; 
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .aboutMeBody{
+        padding: 0 20px 0 20px
+    }
+    .dog{
+        box-shadow: 10px 10px #70798C; 
+    }
 }

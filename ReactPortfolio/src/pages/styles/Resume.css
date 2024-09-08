@@ -1,0 +1,108 @@
+.resumeBody{
+    background-color: #DAD2BC;
+    padding: 0 2vw 0 2vw;
+    font-family: "Roboto";
+}
+
+
+
+h3{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 50px;
+}
+
+.summary-text{
+    padding: 0 20vw 0 20vw;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.certifications{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 45%;
+    min-width: 400px;
+    height: auto;
+    justify-content: space-around;
+    padding: 20px 0 0 0;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    background-color: #F5F1ED;
+    box-shadow: 10px 10px #70798C;
+}
+
+.card > hr{
+    margin: 0;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.education-title{
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.skills{
+    padding: 40px;
+    margin: 5px 0 100px 0;
+}
+
+.item{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.hardSkill > ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-direction: row;
+}
+
+.softSkill > ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.softSkill > ul >li{
+    min-width: 100px;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: #70798C;
+}
+
+.btn:hover{
+    background-color: #252323;
+    color: white;
+}

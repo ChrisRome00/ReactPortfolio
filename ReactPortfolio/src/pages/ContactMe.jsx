@@ -1,5 +1,12 @@
+import './styles/ContactMe.css'
 export default function ContactMe() {
     return (
-        <h2>Contact Me</h2>
+        <div>
+            <h2>Contact Me</h2>
+            <div className="form-container">
+
+            </div>
+        </div>
+        
     )
 }
