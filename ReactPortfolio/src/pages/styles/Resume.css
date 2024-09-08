@@ -47,6 +47,11 @@ h3{
     box-shadow: 10px 10px #70798C;
 }
 
+.card:hover{
+    filter: brightness(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
 .card > hr{
     margin: 0;
     width: 70%;
@@ -105,4 +110,28 @@ h3{
 .btn:hover{
     background-color: #252323;
     color: white;
+}
+
+.acc {
+    background-image: url("../../assets/images/ACC.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.ut{
+    background-image: url("../../assets/images/ut.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.dvhs {
+    background-image: url("../../assets/images/dvhs.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
 }

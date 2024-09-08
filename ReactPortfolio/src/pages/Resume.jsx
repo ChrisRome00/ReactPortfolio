@@ -15,25 +15,25 @@ export default function Resume() {
                 <h3>Education</h3>
                 <hr />
                 <div className="education">
-                    <div className="card">
-                        <p className="education-title">Bachelor's of Applied Science in Software Development</p>
+                    <div className="card acc">
+                        <p className="education-title ">Bachelor's of Applied Science in Software Development</p>
                         <hr />
-                        <p className="education-place-date">AustinfCommunity College ~ 2023 - Current</p>
+                        <p className="education-place-date">Austin Community College ~ 2023 - Current</p>
                     </div>
-                    <div className="card">
+                    <div className="card ut">
                         <p className="education-title">University of Texas at Austin Full-Stack Coding Bootcamp</p>
                         <hr />
                         <p className="education-place-date">University of Texas ~ 2024</p>
                     </div>
-                    <div className="card">
+                    <div className="card acc">
                         <p className="education-title">Associates of Science in Computer Science</p>
                         <hr />
                         <p className="education-place-date">Austin Community College ~ 2023</p>
                     </div>
-                    <div className="card">
+                    <div className="card dvhs">
                         <p className="education-title">High School Deploma</p>
                         <hr />
-                        <p className="education-place-date">Del Valle High School ~ 2023</p>
+                        <p className="education-place-date">Del Valle High School ~ 2019</p>
                     </div>
                 </div>
             </div>
@@ -41,12 +41,12 @@ export default function Resume() {
                 <h3>Certifications</h3>
                 <hr />
                 <div className="certifications">
-                    <div className="card">
+                    <div className="card acc">
                         <p className="education-title">Occupational Skills Award in Computer Programming</p>
                         <hr />
                         <p className="education-place-date">Austin Community College ~ 2023</p>
                     </div>
-                    <div className="card">
+                    <div className="card ut">
                         <p className="education-title">UT at Austin Coding Bootcamp Certificate of Completion</p>
                         <hr />
                         <p className="education-place-date">University of Texas ~ 2024</p>
