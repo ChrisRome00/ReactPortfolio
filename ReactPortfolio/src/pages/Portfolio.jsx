@@ -23,7 +23,7 @@ const portfolioData = [
     title: "Weather Dashboard",
       repo: 'https://github.com/ChrisRome00/Challenge-06-WeatherDashboard',
       deployment: 'https://chrisrome00.github.io/Challenge-06-WeatherDashboard/',
-      img: 'src/assets/images/weather.png',
+      img: '../../src/assets/images/weather.png',
       description: 'A weather dashboard where a user can search for weekly forecast data based upon city.'
   },
   { 
@@ -39,7 +39,7 @@ const portfolioData = [
     title: "Personal Blog",
       repo: 'https://github.com/ChrisRome00/Challenge-04-PersonalBlog',
       deployment: 'https://chrisrome00.github.io/Challenge-04-PersonalBlog/form.html',
-      img: 'src\assets\images\selflog.png',
+      img: 'src/assets/images/selflog.png',
       description: 'This application is a personal blogging tool that utilizes a users local storage.'
   },
   {
