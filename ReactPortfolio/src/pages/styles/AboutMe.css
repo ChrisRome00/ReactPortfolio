@@ -1,10 +1,10 @@
 .aboutMe {
     background-color: #DAD2BC;
-    min-height: 705px;
+    min-height: auto;
     display: flex;
     flex-direction: column;
-    min-height: 84vh;
     font-family: "Roboto";
+    padding-bottom: 200px;
 }
 
 h2 {

@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 82vh;
+    min-height: 1000px;
 }
 
 .form-container{
@@ -17,7 +17,7 @@
     background-color: #F5F1ED;
     height: 700px;
     box-shadow: 10px 10px #70798C;
-    
+    margin-bottom: 20px;
 }
 
 form{

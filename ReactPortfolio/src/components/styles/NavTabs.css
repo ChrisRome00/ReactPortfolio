@@ -30,6 +30,11 @@
     text-shadow: 2px -1px 1px black;
 }
 
+.navBar a.active-link {
+    color: rgb(0, 0, 0);
+    text-shadow: none;  
+}
+
 .navBar a:hover{
     filter: brightness(0.6);
     transition: all 0.3s ease-in-out;
