@@ -39,7 +39,7 @@ const portfolioData = [
     title: "Personal Blog",
       repo: 'https://github.com/ChrisRome00/Challenge-04-PersonalBlog',
       deployment: 'https://chrisrome00.github.io/Challenge-04-PersonalBlog/form.html',
-      img: 'src/assets/images/selflog.png',
+      img: 'src\assets\images\selflog.png',
       description: 'This application is a personal blogging tool that utilizes a users local storage.'
   },
   {
