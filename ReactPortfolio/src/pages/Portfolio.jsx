@@ -6,7 +6,7 @@ const portfolioData = [
       id: 1,
       repo: 'https://github.com/vmarorti/Team-Rocket-s-Warehouse',
       deployment : 'https://team-rocket-s-warehouse.onrender.com/',
-      img: 'src/assets/images/pokemon.png',
+      img: '../../src/assets/images/pokemon.png',
       description: 'An online platform where Pokémon card enthusiasts can trade, buy, and sell their cards.',
       title: 'Team Rockets Warehouse'
   },
@@ -14,7 +14,7 @@ const portfolioData = [
     id: 2,
       repo: 'https://github.com/chrypixl/project-1',
       deployment: 'https://chrypixl.github.io/project-1/',
-      img: 'src/assets/images/bookoSearch.png',
+      img: '../../src/assets/images/bookoSearch.png',
       description: 'An application where a user can search for a specific title based on categories and genres.',
       title: "Book Search"
   },
@@ -39,7 +39,7 @@ const portfolioData = [
     title: "Personal Blog",
       repo: 'https://github.com/ChrisRome00/Challenge-04-PersonalBlog',
       deployment: 'https://chrisrome00.github.io/Challenge-04-PersonalBlog/form.html',
-      img: 'src/assets/images/selflog.png',
+      img: '../..src/assets/images/selflog.png',
       description: 'This application is a personal blogging tool that utilizes a users local storage.'
   },
   {
@@ -47,7 +47,7 @@ const portfolioData = [
     title: "proffessional ReadME Generator",
       repo: 'https://github.com/ChrisRome00/ReadMe-Generator',
       deployment: 'Node.js Environment Application',
-      img: 'src/assets/images/profReadme.png',
+      img: '../../src/assets/images/profReadme.png',
       description: 'This command line application allows the user to build a proffessional read me file (.md).'
   }
 
