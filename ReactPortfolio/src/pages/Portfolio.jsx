@@ -38,7 +38,7 @@ const portfolioData = [
       repo: 'https://github.com/ChrisRome00/E-Connerce-Backend',
       deployment: 'Server Level Application',
       img: ecommerce,
-      description: 'A backend server level application that can control the addition of items for an E-commerce market.'
+      description: 'A backend server level application that can control the addition of items for an E-commerce market. (Cannot view deployment)'
   },
   {
     id: 5,
@@ -52,9 +52,9 @@ const portfolioData = [
     id: 6,
     title: "proffessional ReadME Generator",
       repo: 'https://github.com/ChrisRome00/ReadMe-Generator',
-      deployment: 'Node.js Environment Application',
+      deployment: 'Node.js Environment Application ',
       img: profReadME,
-      description: 'This command line application allows the user to build a proffessional read me file (.md).'
+      description: 'This command line application allows the user to build a proffessional read me file (.md). (Cannot view deployment)'
   }
 
 ]
