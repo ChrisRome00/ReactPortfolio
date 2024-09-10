@@ -1,12 +1,12 @@
 import './styles/Portfolio.css'
 import Projects from '../components/Projects.jsx'
-
+import pokemon from '../../src/assets/images/pokemon.png'
 const portfolioData = [
   { 
       id: 1,
       repo: 'https://github.com/vmarorti/Team-Rocket-s-Warehouse',
       deployment : 'https://team-rocket-s-warehouse.onrender.com/',
-      img: '../../src/assets/images/pokemon.png',
+      img: pokemon,
       description: 'An online platform where Pokémon card enthusiasts can trade, buy, and sell their cards.',
       title: 'Team Rockets Warehouse'
   },
@@ -39,7 +39,7 @@ const portfolioData = [
     title: "Personal Blog",
       repo: 'https://github.com/ChrisRome00/Challenge-04-PersonalBlog',
       deployment: 'https://chrisrome00.github.io/Challenge-04-PersonalBlog/form.html',
-      img: '../..src/assets/images/selflog.png',
+      img: '../../src/assets/images/selflog.png',
       description: 'This application is a personal blogging tool that utilizes a users local storage.'
   },
   {
