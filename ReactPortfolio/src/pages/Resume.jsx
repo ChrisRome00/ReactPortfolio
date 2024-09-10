@@ -1,15 +1,24 @@
-import "./styles/Resume.css"
+import "./styles/Resume.css";
+import resume from '../../src/assets/images/resume.jpg';
+
 export default function Resume() {
+    const triggerDownload = () => {
+        const link = document.createElement('a');
+        link.href = resume;
+        link.download = 'Resume.jpg'; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className="resumeBody">
             <div className="section">
                 <h3>Summary</h3>
-                
                 <div className="summary-text">
                     <hr />
                     <p>I am a student at Austin Community College and an aspiring developer with three years of coding experience. While much of my time has been dedicated to building a strong academic foundation, I have recently begun applying my knowledge in practical, real-world settings. My primary focus is on web development using the MERN stack, where I build full-stack applications from scratch, including server-level components.</p>
                 </div>
-            
             </div>
             <div className="section">
                 <h3>Education</h3>
@@ -31,7 +40,7 @@ export default function Resume() {
                         <p className="education-place-date">Austin Community College ~ 2023</p>
                     </div>
                     <div className="card dvhs">
-                        <p className="education-title">High School Deploma</p>
+                        <p className="education-title">High School Diploma</p>
                         <hr />
                         <p className="education-place-date">Del Valle High School ~ 2019</p>
                     </div>
@@ -58,7 +67,7 @@ export default function Resume() {
                 <hr />
                 <div className="skills">
                     <div className="hardSkill">
-                        <ul >
+                        <ul>
                             <li className="item">Critical Thinking</li>
                             <li className="item">Attention To Detail</li>
                             <li className="item">Ambitious</li>
@@ -80,9 +89,8 @@ export default function Resume() {
                 </div>
             </div>
             <div className="buttonDiv">
-                <button className="btn specbtn">Download Resume ⬇️</button>    
+                <button onClick={triggerDownload} className="btn specbtn">Download Resume ⬇️</button>
             </div>
         </div>
-        
-    )
+    );
 }
